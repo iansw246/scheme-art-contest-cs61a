@@ -24,7 +24,7 @@ This runs the file `contest.scm` and saves the drawing output to the file `outpu
 The main code is in `contest.scm`. Configure the various variables defined to adjust the scene and render settings.
 
 ## Parallel
-The script `make_paralle.py` generates scheme files so that multiple instances of the interpreter can run in parallel.
+The script `make_parallel.py` generates scheme files so that multiple instances of the interpreter can run in parallel.
 When all processes are finished, it uses image magick to merge the images into the final result.
 
 # Performance
